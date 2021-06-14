@@ -1,0 +1,2117 @@
+
+    @font-face {
+        font-family: BupaScript;
+        src: url(https://www.rompecabeza.cl/wp-content/uploads/2021/04/BupaScript-Regular.ttf);
+    }
+
+    article strong {
+        text-align: center;
+        color: #409bd6;
+        font-size: 20px;
+    }
+
+    #logo img {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        display: block !important;
+        margin: 1em;
+    }
+
+    .alloff {
+        top: -3em;
+    }
+
+    .contenido {
+        width: 100%;
+        max-width: 1130px;
+        margin: 0 auto;
+        position: relative;
+        padding: 50px 0;
+    }
+
+    body {
+        all: unset;
+    }
+
+    .subh1,
+    .titlesub,
+    h1>span {
+        all: unset;
+    }
+
+    .alloff img {
+        all: unset;
+        margin: 1em;
+    }
+
+    .info *,
+    .info75 *,
+    .info50 * {
+        all: unset !important;
+        background-color: unset !important;
+        color: white !important;
+    }
+
+    .info {
+        background-color: unset !important;
+        color: white !important;
+    }
+
+    .logo-btn img {
+        all: unset;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: unset !important;
+        padding: unset !important;
+        border: unset !important;
+        display: unset !important;
+    }
+
+    #cuerpo,
+    .cuerpo {
+        padding: unset !important;
+        width: unset !important;
+        text-align: unset !important;
+        color: unset;
+        background-color: unset !important;
+    }
+
+    section {
+        background-color: unset !important;
+        display: unset;
+        width: unset;
+    }
+
+    .rcd-main-container img {
+        width: unset !important;
+    }
+
+    article {
+        margin-bottom: 0 !important;
+        margin-right: 0 !important;
+        overflow: hidden;
+    }
+
+    .lista,
+    .resul,
+    ul {
+        list-style-type: unset;
+    }
+
+    body {
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-family: Bupa, Montserrat, Helvetica, Arial, sans-serif !important;
+        overflow-x: hidden;
+    }
+
+    .logo-btn {
+        height: 300px !important;
+        padding: 0 1.5rem !important;
+    }
+
+    .logo-btn img {
+        display: block !important;
+        margin: auto !important;
+        padding-top: 87px !important;
+        max-width: 100% !important;
+    }
+
+    .contenedor-btn {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 40px;
+        padding: 2em;
+        margin: auto;
+        max-width: 1130px !important;
+    }
+
+    .logo-boton,
+    .descripcion-boton {
+        position: relative;
+    }
+
+    .logo-boton::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 161px;
+        top: -17px;
+        left: 20px;
+        border-right: solid 1px #00335b;
+    }
+
+    .logo-boton {
+        width: 22%;
+        padding: 1rem 2rem;
+    }
+
+    .logo-boton img {
+        margin: auto !important;
+        max-width: 100% !important;
+    }
+
+    .descripcion-boton {
+        width: 60%;
+        padding: 2rem 2rem;
+    }
+
+    .descripcion-boton p {
+        color: #04345a !important;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .descripcion-boton p span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #04345a;
+    }
+
+    .footer .auxi {
+        margin: 0px 15px;
+        padding: 20px 0;
+    }
+
+    .slick-slider {
+        user-select: auto !important;
+        outline: 0;
+    }
+
+    /* ************* Sección mapa por zona ************* */
+    .zona-clinicas {
+        background-color: #1779c6 !important;
+        color: #ffffff !important;
+    }
+
+    .section-mapa {
+        margin-bottom: 15px;
+    }
+
+    .section-mapa,
+    .section-sucursales {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        transition: flex-flow 0.5s;
+    }
+
+    .section-mapa .info {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        flex-basis: 720px;
+    }
+
+    .section-mapa .info h2 {
+        font-size: 32px !important;
+        line-height: 33px !important;
+    }
+
+    .mapa-zona img {
+        max-width: 100% !important;
+    }
+
+    .section-sucursales {
+        column-gap: 50px !important;
+        font-size: 24px !important;
+        font-style: normal !important;
+        line-height: 29px !important;
+    }
+
+    .section-sucursales::before {
+        content: "";
+        position: absolute;
+        width: 94%;
+        border-top: 1px solid #ffffff;
+    }
+
+    .section-sucursales .regiones {
+        width: 33%;
+    }
+
+    .section-sucursales .regiones .titulo {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+
+    .section-sucursales .regiones .list {
+        font-weight: 300 !important;
+        padding-left: 20px !important;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .zona-1 {
+        position: absolute !important;
+        margin-left: 320px !important;
+        width: 100px !important;
+        height: 150px !important;
+    }
+
+    .zona-2 {
+        position: absolute !important;
+        margin-top: 165px !important;
+        margin-left: 110px !important;
+        width: 100px !important;
+        height: 150px !important;
+    }
+
+    .zona-3 {
+        position: absolute !important;
+        margin-top: 170px !important;
+        margin-left: 340px !important;
+        width: 100px !important;
+        height: 150px !important;
+    }
+
+    .zona-4 {
+        position: absolute !important;
+        margin-top: 165px !important;
+        margin-left: 660px !important;
+        width: 100px !important;
+        height: 150px !important;
+    }
+
+    /* ************* Contenidos ************* */
+    .titulo-azul {
+        color: #0079c8 !important;
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        line-height: 29px !important;
+        text-align: center !important;
+    }
+
+    .div-azul {
+        padding: 31px 0 !important;
+        background-color: #0079c8 !important;
+        color: #fff !important;
+    }
+
+    .top-banner {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 34px 0 !important;
+    }
+
+    .top-banner h2 {
+        font-size: 24px !important;
+        color: #4c4c4c !important;
+    }
+
+    .top-banner h2 span {
+        color: #0079c8 !important;
+    }
+
+    .accordeon-content .content-col figure {
+        margin: 0 !important;
+    }
+
+    .caja-color {
+        margin-top: 24px !important;
+        padding: 44px 21px !important;
+        margin-right: 24px !important;
+        flex-basis: 33% !important;
+    }
+
+    .content-col .caja-color:last-child {
+        margin-right: 0 !important;
+    }
+
+    .caja-color figure {
+        margin-bottom: 24px !important;
+    }
+
+    .caja-color p {
+        color: #fff !important;
+    }
+
+    .caja-color.blue-1 {
+        background: #0079c8 !important;
+    }
+
+    .caja-color.blue-2 {
+        background: #409bd6 !important;
+    }
+
+    .caja-color.blue-3 {
+        background: #7fbce3 !important;
+    }
+
+    .caja-color.magenta {
+        background: #d4409e !important;
+    }
+
+    .caja-color.orange {
+        background: #e46a45 !important;
+    }
+
+    .caja-color.green {
+        background: #008385 !important;
+    }
+
+    .cajas-cirugias {
+        display: flex !important;
+        align-content: center !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .cajas-cirugias .caja-color {
+        flex-basis: 264px !important;
+        box-sizing: border-box !important;
+        margin: 12px !important;
+    }
+
+    .accordeon-content {
+        display: none !important;
+    }
+
+    .accordeon-item .accordeon-header:hover {
+        cursor: pointer !important;
+    }
+
+    .accordeon-item .accordeon-header .titulo:before {
+        content: "" !important;
+        display: inline-block !important;
+        margin-right: 24px !important;
+        height: 37px !important;
+        width: 20px !important;
+        background-image: url(https://www.clinicabupasantiago.cl/clinica_santiago/site/artic/20210226/imag/foto_0000000120210226155840.png) !important;
+        background-repeat: no-repeat !important;
+        transition: all 0.3s ease 0s !important;
+    }
+
+    .accordeon-item .accordeon-header.active .titulo:before {
+        transform: rotate(90deg) !important;
+    }
+
+    .accordeon-item .accordeon-header .titulo {
+        font-size: 32px !important;
+        font-weight: bold !important;
+        color: #0079c8 !important;
+    }
+
+    .content-col {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .col-center {
+        text-align: center !important;
+    }
+
+    .btn-fucsia {
+        background: #c60b7e !important;
+        display: inline-block !important;
+        padding: 12px 30px !important;
+        border-radius: 8px !important;
+        color: #fff !important;
+        text-align: center !important;
+        font-size: 20px !important;
+        font-weight: 700 !important;
+        margin: 30px 0 30px !important;
+        text-decoration: none !important;
+    }
+
+    .reserva-div {
+        width: 100% !important;
+        padding: 16px 0 !important;
+        text-align: center !important;
+        background-color: #fa5000 !important;
+        position: sticky !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        z-index: 10 !important;
+    }
+
+    .btn-blanco {
+        background: #fff !important;
+        display: inline-block !important;
+        padding: 8px 16px !important;
+        border-radius: 8px !important;
+        color: #fa5000 !important;
+        text-align: center !important;
+        font-size: 20px !important;
+        text-decoration: none !important;
+    }
+
+    .contenido {
+        width: 100% !important;
+        max-width: 1130px !important;
+        margin: 0 auto !important;
+        position: relative !important;
+        padding: 50px 0 !important;
+    }
+
+    #masterlayout {
+        margin-top: 25px !important;
+        font-family: Bupa, Arial, Helvetica, Sans-serif !important;
+    }
+
+    /* Otros */
+    .titulo-icono {
+        display: flex !important;
+        width: 100% !important;
+        /* justify-content: flex-start !important; */
+        justify-content: center !important;
+        align-content: stretch !important;
+        align-items: center !important;
+    }
+
+    .titulo-icono h3 {
+        font-size: 32px !important;
+        margin: 0 !important;
+        line-height: 36px !important;
+        text-align: left !important;
+        color: #0079c8 !important;
+    }
+
+    .titulo-icono p {
+        margin: 0 !important;
+        text-align: left !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: #fff !important;
+    }
+
+    .titulo-icono div .comentario-card {
+        margin: 0 !important;
+        text-align: left !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: #000 !important;
+    }
+
+    .titulo-icono div .comentario-card span {
+        margin: 0 !important;
+        text-align: left !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #000 !important;
+        line-height: 25px !important;
+    }
+
+    .titulo-icono .parrafo-grilla {
+        margin: 0 !important;
+        text-align: left !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: #000 !important;
+    }
+
+    .titulo-icono img {
+        height: 100% !important;
+        width: auto !important;
+    }
+
+    .titulo-icono span {
+        color: #0079c8 !important;
+        font-size: 40px !important;
+        font-weight: 700 !important;
+        line-height: 49px !important;
+    }
+
+    .caract001 {
+        display: flex !important;
+        flex-direction: column !important;
+        row-gap: 20px !important;
+    }
+
+    .div-azul .titulo-icono span {
+        color: #fff !important;
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+
+    .div-azul .contenido {
+        padding-top: 0 !important;
+    }
+
+    .figure-center {
+        display: flex !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    #masterlayout h3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0079c8;
+        line-height: 26px;
+        margin: 1em 0;
+    }
+
+    .banner-pptos {
+        justify-content: flex-start !important;
+        background: #e4e4e4 !important;
+    }
+
+    .banner-pptos figure {
+        margin: 0 !important;
+    }
+
+    .banner-pptos .caption-banner {
+        padding: 65px 95px !important;
+    }
+
+    .banner-pptos .caption-banner .titulo-azul {
+        font-size: 32px !important;
+    }
+
+    /* ************* Asociados ************* */
+    .grilla-asociados {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px 40px;
+    }
+
+    .grilla-asociados .asociado {
+        width: 30%;
+    }
+
+    .grilla-asociados .asociado img {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+    }
+
+    .grilla-asociados .asociado .integra-medica-davila {
+        margin-top: 45px !important;
+    }
+
+    /* ************* Sección Cajas Coberturas ************* */
+    .boxes-article .titulo {
+        color: #409bd6 !important;
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        line-height: 36px !important;
+        display: block !important;
+        text-align: center !important;
+        margin-bottom: 50px !important;
+    }
+
+    /* Sección Cajas Coberturas Zonas */
+    .grilla-boxes-vregion
+     {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+
+    .grilla-boxes-vregion .box
+    {
+        width: 500px;
+        padding: 20px 35px;
+        margin: 11px;
+        color: #fff;
+        border-radius: 20px;
+    }
+
+    .grilla-boxes-vregion .box.hosp
+    {
+        background-color: #1779c6;
+    }
+
+    .grilla-boxes-vregion .box.amb
+     {
+        background-color: #00335b;
+    }
+
+    .grilla-boxes-vregion .box div
+     {
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        color: #fff !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grilla-boxes-vregion .box div>span
+    {
+        display: block;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .grilla-boxes-vregion .box div>strong
+   {
+        display: inline-flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 154px;
+        height: 154px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 24px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 36px;
+        padding-top: 44px;
+        color: #fff;
+    }
+
+    .grilla-boxes-vregion .box div>strong:after
+     {
+        content: "" !important;
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 3 !important;
+        border-radius: 50% !important;
+    }
+
+    .grilla-boxes-vregion .box div>strong>span
+     {
+        display: block !important;
+        text-align: center !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        line-height: 22px !important;
+        text-align: center !important;
+    }
+
+    .grilla-boxes-vregion .box div>strong.per60
+    {
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000002920210427192917.png) !important;
+        background-position: top left !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important
+    }
+
+
+
+    .grilla-boxes-vregion .box div>strong.per70
+    {
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000000120210427192917.png) !important;
+        background-position: top left !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important
+    }
+
+
+    .grilla-boxes-vregion .box div>strong.per80
+    {
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000000220210427192917.png) !important;
+        background-size: cover !important;
+        background-position: top left !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .grilla-boxes-vregion .box div>strong.per100
+     {
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000000420210427192917.png) !important;
+        background-size: cover !important;
+        background-position: top left !important;
+        background-repeat: no-repeat !important;
+    }
+
+
+    .parrafo-card {
+        color: #04345a !important;
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+        margin: 1em;
+        padding: 30px 0 20px 0;
+    }
+
+    /* ************* Sección Servicios por zona ************* */
+    .zona-servicios {
+        color: #ffffff !important;
+        padding: 0em 2em !important;
+    }
+
+    .zona-servicios.vregion {
+        background-color: #00335B !important;
+    }
+
+
+    .grilla-atencion {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 90px;
+        justify-content: center;
+    }
+
+    .grilla-atencion .items.titulo {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .grilla-atencion .items.titulo::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 45px;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .grilla-atencion .items.titulo p {
+        color: #ffffff;
+    }
+
+    .grilla-atencion .items.titulo p:nth-of-type(1) {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .grilla-atencion .items.titulo p:nth-of-type(2) {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .grilla-atencion .items p:not(.titulo p) {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        padding: 0 8px;
+    }
+
+    .grilla-atencion .items.cont {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        color: #ffffff !important;
+    }
+
+    .grilla-atencion .items.cont .item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        width: 170px;
+        color: #ffffff !important;
+    }
+
+    .grilla-atencion .items.cont .item figure {
+        margin: auto;
+    }
+
+    /* ************** Sección cotizar ************** */
+    .cotizar-plan p {
+        margin: 0 1em !important;
+        text-align: center !important;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 400 !important;
+        color: #04345a !important;
+    }
+
+    .cotizar-plan p span {
+        color: #04345A;
+        font-weight: 700;
+    }
+
+
+    .div-azul .titulo-icono {
+        margin: 2em 0;
+    }
+
+
+    /* ************* PLAN V REGION ************* */
+    #main-slide-vregion {
+        width: 100% !important;
+        position: relative !important;
+        height: 500px !important;
+        overflow: hidden !important;
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000003720210427192917.jpg) !important;
+        background-size: cover !important;
+        background-position: top center;
+        margin: 0 !important;
+    }
+
+    #main-slide-vregion:after {
+        content: "" !important;
+        display: block !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        z-index: 1 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: linear-gradient(180deg,
+                rgba(0, 0, 0, 0.35),
+                rgba(0, 0, 0, 0)) !important;
+    }
+
+    #main-slide-vregion img {
+        position: relative !important;
+        z-index: 1 !important;
+        width: 100% !important;
+    }
+
+    #main-slide-vregion .contenido {
+        position: absolute !important;
+        z-index: 2 !important;
+        left: 0 !important;
+        right: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-content: center !important;
+    }
+
+    #main-slide-vregion .titulo-ppal {
+        display: block !important;
+        margin-top: 132px !important;
+        width: 800px;
+        height: 160px !important;
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210324/imag/foto_0000003720210324110702.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        text-indent: 1000 !important;
+    }
+
+    #main-slide-vregion .titulo-ppal h1 {
+        display: block !important;
+        color: #ffffff !important;
+        text-align: center !important;
+        font-size: 40px !important;
+        line-height: 50px;
+        font-weight: 500 !important;
+    }
+
+    #main-slide-vregion .titulo-ppal h1 span {
+        color: #ffffff !important;
+        font-family: BupaScript !important;
+        font-size: 86px !important;
+        line-height: 50px;
+        font-weight: 100 !important;
+        font-style: italic !important;
+        background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000001620210427192917.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+    #main-slide-vregion .titulo-ppal h1 strong {
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        color: #ffffff;
+    }
+
+    .art-dark-blue-vregion {
+        padding: 47px 0 !important;
+        background-color: #c60b7e !important;
+    }
+
+    .art-dark-blue-vregion {
+        display: block !important;
+        text-align: center !important;
+        color: #409bd6 !important;
+        font-size: 20px !important;
+    }
+
+
+    /*  CLASES NUEVAS */
+
+    .parrafo-central {
+        display: flex;
+        justify-content: center;
+    }
+
+    .parrafo-coberturas h2 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #04345a
+    }
+
+    .parrafo-coberturas h2 span {
+        font-weight: 700;
+        color: #1779C6;
+    }
+
+    .divisor div hr {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+
+    /*  SECCION MAPA */
+
+    .contenedor-mapa {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .zona-descripcion .contenedor-datos {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 0 20px 0;
+    }
+   
+    .contenedor-datos .dates img {
+        width: 11%;
+        margin-left: 79px !important;
+    }
+    .contenedor-datos .dates .icono-mapa {
+        display: none !important;
+    }
+   
+
+    .contenedor-datos .dates h3 {
+        font-size: 24px !important;
+        color: #003D66 !important;
+        padding-left: 86px;
+    }
+
+    .contenedor-datos .dates h3 span {
+        color: #1779C6;
+    }
+
+    .contenedor-datos .dates ol li {
+        font-size: 16px !important;
+        color: #003D66 !important;
+        list-style: none !important;
+        margin-left: 55px !important;
+        line-height: 22px;
+        inline-size: max-content;
+    }
+
+    .atencion-santiago {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 30px 0;
+    }
+
+    .informacion h3 {
+        font-size: 24px !important;
+        color: #003D66 !important;
+    }
+
+    .informacion h3 span {
+        color: #1779C6 !important;
+    }
+
+    .informacion ol li {
+        font-size: 16px !important;
+        color: #003D66 !important;
+        list-style: none !important;
+        margin-left: -31px !important;
+        line-height: 22px;
+    }
+
+
+    /* header y footer */
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav-mobile {
+        display: none;
+    }
+    
+    
+    .contenedor-lado-izq , .contenedor-lado-der{
+        display: flex;
+        background-color: #f2f1f1;
+        justify-content: center;
+        align-items: center;
+        height: 60px; 
+        width: 100%;
+    }
+    
+    .back-row-nav {
+        background-color: #F9F9F9;
+        width: 100%;
+    }
+    
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+    
+    
+    .nav-lado-izq a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+    
+    .nav-lado-izq a:hover {
+        background-color: #1779C8;
+        color: #FFFFFF;
+        border-radius: 8px;
+        padding: 5px 5px;
+    }
+    
+    .cotizacion-azul {
+        text-decoration: none;
+        background-color: #f2f1f1;
+        border: 1px solid #1779C8;
+        color: #1779C8;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px 15px;
+    }
+    
+    .cotizacion-naranja {
+        text-decoration: none;
+        background-color: rgb(230, 100, 61);
+        border: 1px solid rgb(230, 100, 61);
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px 15px;
+    }
+    
+    .numero-a , .contacto-a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .contenedor-nav-buscador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-buscador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .logo-cruz-blanca {
+        width: 25%;
+    }
+    
+    .nav-buscador input {
+         width: 50%;
+         margin: 0 35px;
+    }
+    
+    .logo-segundo-cruz-blanca {
+        width: 6%;
+    }
+    
+    .contenedor-sub-titulos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .nav-subtitulos {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .nav-subtitulos a {
+        text-decoration: none;
+        color: #1779C8;
+        font-size: 18px;
+        font-weight: 700;
+        margin-right: 40px;
+    }
+    
+    .nav-subtitulos a:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+        border-radius: 12px;
+        padding: 5px 8px;
+    }
+    
+    
+    
+    
+    
+    
+    /* FOOTER */
+    
+    footer {
+        background-color: #1779C8;
+        height: 400px;
+        padding: 40px;
+        width: 100%;
+    }
+    
+    .footer-100 {
+        width: 100%;
+    }
+    
+    .contenedor-footer-1 , .contenedor-footer-2 , .contenedor-footer-3 , .contenedor-footer-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+    }
+    
+    .contenedor-footer-1 img {
+        padding-bottom: 30px;
+    }
+    
+    .contenedor-footer-1 div a h4 , .contenedor-footer-2 div a h4 , .contenedor-footer-3 div a h4 , .contenedor-footer-4 div a h4 {
+         color: #FFFFFF;
+         font-size: 18px;
+         font-weight: 700;
+         text-decoration: none;
+    }
+    
+    .footer-iconos {
+        margin: 30px 0 0 60px;
+        display: flex;
+    }
+    
+    .logo-facebook {
+       width: 50%;
+       position: relative;
+       left: 20px;
+    }
+    
+    .logo-twiter {
+        width: 50%;
+        position: relative;
+        left: -10px;
+    }
+    
+    .logo-youtube {
+        width: 50%;
+        position: relative;
+        left: -40px;
+    }
+    
+    .contenedor-footer-1 div a , .contenedor-footer-2 div a , .contenedor-footer-3 div a , .contenedor-footer-4 div a {
+        color: #FFFFFF;
+         font-size: 16px;
+         font-weight: 400;
+         text-decoration: none;
+         display: block;
+         margin-bottom: 5px;
+    }
+    
+    .contenedor-footer-1 div a:hover , .contenedor-footer-2 div a:hover , .contenedor-footer-3 div a:hover , .contenedor-footer-4 div a:hover {
+        color: #000000;
+    }
+    
+    
+    
+    /* MENU HAMBURGUESA */
+    
+    body{margin:0;padding:0;}
+    .hamburger{
+        position:fixed;
+      background-color:transparent;
+        left:0;
+        top:0;
+        height:30px;
+        width:30px;
+        padding:25px 30px;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        z-index:1002;
+        cursor:pointer;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none
+    }
+    .hamburger.is-active{
+      background-color:none;
+    }
+    ._layer{
+        background:#FFFFFF;
+        margin-bottom:4px;
+        border-radius:2px;
+        width:28px;
+        height:4px;
+        opacity:1;
+        -webkit-transform:translate3d(0, 0, 0);
+        transform:translate3d(0, 0, 0);
+        -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+        transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    }
+    .hamburger:hover .-top{
+        -webkit-transform:translateY(-100%);
+        -ms-transform:translateY(-100%);
+        transform:translateY(-100%);
+    }
+    .hamburger:hover .-bottom{
+        -webkit-transform:translateY(50%);
+        -ms-transform:translateY(100%);
+        transform:translateY(100%);
+        }
+    .hamburger.is-active .-top{
+        -webkit-transform:translateY(200%) rotate(45deg) !important;
+        -ms-transform:translateY(200%) rotate(45deg) !important;
+        transform:translateY(200%) rotate(45deg) !important;
+    }
+    .hamburger.is-active .-mid{
+        opacity:0;
+    }
+    .hamburger.is-active .-bottom{
+        -webkit-transform:translateY(-200%) rotate(135deg) !important;
+        -ms-transform:translateY(-200%) rotate(135deg) !important;
+        transform:translateY(-200%) rotate(135deg) !important;
+    }
+    
+    .menuppal.is_active{
+      transform: translate3d(0px, 0px, 0px);
+    }
+    .menuppal{
+       background-color: #1779C8;
+        bottom: 0;
+        height: 320px;
+        left: 0;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        transform: translate3d(0px, -100%, 0px);
+        transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+        width: 100%;
+        z-index: 1001;
+    }
+    .menuppal ul{
+      margin:0;padding:0;
+    }
+    .menuppal ul li { 
+      list-style: none;
+        text-align:center;
+        font-family: Verdadna, Arial, Helvetica;
+        font-size:1.5rem;
+        line-height:3em;
+        height:3em;
+        color: #369;
+        text-transform:none;
+        font-weight:bold;
+    }
+    .menuppal ul li a{
+      text-decoration:none;
+      color:#FFFFFF;
+    }
+    .menuppal ul li a:hover{
+      text-decoration:none;
+      color:#333;
+    }
+    
+
+
+
+    /* ************* Responsive breakpoints ************* */
+
+    /* Integrados */
+    @media (max-width: 991.98px) {
+        .logo-plan img {
+            width: 198px !important;
+            height: 61px !important;
+            min-height: unset !important;
+            min-width: unset !important;
+        }
+
+        .contenido {
+            padding: 2rem;
+        }
+
+        .descripcion-boton {
+            padding: 0;
+        }
+
+        .descripcion-boton p
+            {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        article {
+            padding: 0 !important;
+        }
+
+        #masterlayout {
+            margin-top: 70px !important;
+        }
+
+        .titulo-icono figure {
+            margin: 0 !important;
+        }
+
+        .icono-desk {
+            display: none !important;
+        }
+
+        .titulo-icono h3 {
+            font-size: 20px !important;
+            text-align: center !important;
+            line-height: 23px !important;
+        }
+
+        .titulo-icono p {
+            text-align: center !important;
+        }
+
+        .zona-clinicas .contenido {
+            padding: 1rem !important;
+        }
+
+        .boxes-article .contenido {
+            padding: 0 !important;
+        }
+
+        .grilla-boxes {
+            width: 100% !important;
+            flex-direction: column !important;
+        }
+
+        .grilla-boxes .box.slick-slide {
+            padding: 33px 20px !important;
+            margin: 11px !important;
+            color: #fff !important;
+        }
+
+        .grilla-boxes .box div>strong {
+            width: 96px !important;
+            height: 96px !important;
+            margin: 10px !important;
+            font-size: 25px !important;
+            line-height: 19px !important;
+            padding-top: 24px !important;
+        }
+
+        .grilla-boxes .box div {
+            display: inline-block !important;
+            color: #fff !important;
+            width: 100% !important;
+            text-align: center !important;
+        }
+
+        .grilla-boxes .box div>strong>span {
+            font-size: 10px !important;
+        }
+
+        .top-banner {
+            padding: 23px 28px !important;
+        }
+
+        .top-banner h2 {
+            font-size: 16px !important;
+            color: #4c4c4c !important;
+        }
+
+        .div-azul .titulo-icono span {
+            color: #fff !important;
+            font-size: 11px !important;
+            text-align: center !important;
+            line-height: 16px !important;
+        }
+
+        .div-azul .titulo-icono {
+            margin-bottom: 0 !important;
+        }
+
+        .figure-center {
+            box-sizing: border-box !important;
+            margin: 0 !important;
+        }
+
+        .figure-center img {
+            width: 80% !important;
+        }
+
+        .titulo-icono {
+            flex-direction: column !important;
+            align-content: center !important;
+            justify-content: center !important;
+            margin-bottom: 20px !important;
+        }
+
+        .titulo-icono img {
+            margin-right: 0 !important;
+            height: unset !important;
+            width: auto !important;
+            max-width: 48px !important;
+            margin-bottom: 16px !important;
+            transform: scale(0.5) !important;
+        }
+
+        .titulo-icono span {
+            color: #0079c8 !important;
+            font-size: 24px !important;
+            font-weight: 700 !important;
+            line-height: 26px !important;
+        }
+
+        .accordeon-item .accordeon-header .titulo {
+            font-size: 18px !important;
+            font-weight: bold !important;
+            color: #0079c8 !important;
+        }
+
+        .accordeon-item .accordeon-header .titulo:before {
+            height: 28px !important;
+            width: 11px !important;
+            background-size: contain !important;
+        }
+
+        .accordeon-item .accordeon-header .titulo {
+            display: flex !important;
+        }
+
+        .content-col {
+            flex-direction: column !important;
+        }
+
+        .accordeon-content img {
+            max-width: 100% !important;
+        }
+
+        .caja-color {
+            margin-right: 0 !important;
+        }
+
+        .titulo-azul {
+            font-size: 18px !important;
+            line-height: 21px !important;
+        }
+
+        .banner-pptos .caption-banner {
+            padding: 20px !important;
+            text-align: center !important;
+        }
+
+        .banner-pptos .caption-banner .titulo-azul {
+            font-size: 18px !important;
+        }
+        
+    }
+
+
+
+    /* Personalizados *************************************       575.98      *************************************************************************** */
+    
+
+    @media (max-width: 575.98px) {
+
+        .nav-mobile {
+            display: flex;
+            background-color: #1779C8;
+            width: 100%;
+            height: 70px;
+            margin-bottom: 50px;
+        }
+    
+        .nav-desktop {
+            display: none;
+        }
+    
+        .logo-mobile-nav {
+            position: relative;
+            left: 170px;
+            padding-top: 10px;
+        }
+    
+        .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+            display: none;
+        }
+
+        .zona-descripcion .contenedor-datos {
+            flex-direction: column;
+        }
+
+        #main-slide-vregion .titulo-ppal {
+            width: 355px !important
+        }
+
+        #main-slide-vregion .titulo-ppal h1 {
+            font-size: 24px !important;
+            line-height: 32px;
+        }
+
+        #main-slide-vregion .titulo-ppal h1 span {
+            font-size: 62px !important;
+            line-height: 48px;
+        }
+
+        .div-azul .titulo-icono span {
+            font-size: 11px;
+            line-height: 16px;
+        }
+
+        .logo-boton,
+        .descripcion-boton {
+            width: 100%;
+        }
+
+        .logo-boton::after {
+            display: none;
+        }
+
+        .section-sucursales,
+        .mapa-zona.desktop {
+            display: none;
+        }
+
+        .section-mapa .info h2 {
+            font-size: 18px !important;
+            line-height: 22px !important;
+        }
+
+        .section-sucursales .regiones {
+            width: 62%;
+        }
+
+        .zona-servicios .titulo {
+            font-size: 20px;
+        }
+
+        .parrafo-card {
+            font-size: 17px !important;
+        }
+
+        .titulo-icono p,
+        .titulo-icono .icon-bottom,
+        .cotizar-plan p {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .grilla-asociados .asociado {
+            width: 45%;
+        }
+
+        .grilla-atencion {
+            flex-flow: column nowrap;
+        }
+
+        .grilla-atencion .items.titulo {
+            flex-direction: column;
+            align-items: baseline;
+        }
+
+        .grilla-atencion .items.cont {
+            align-items: center;
+        }
+        #main-slide-vregion {
+              background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000003720210427192917.jpg) !important;
+        }
+       
+
+        #main-slide-vregion .titulo-ppal h1 strong {
+            font-size: 30px !important;
+        }
+        .parrafo-coberturas h2 {
+            width: 335px;
+            padding-bottom: 25px;
+            margin-left: 41px;
+        }
+        .contenedor-datos .dates h3 {
+            font-size: 24px !important;
+            color: #003D66 !important;
+            margin-left: -105px !important;
+        }
+
+        .contenedor-datos .dates h3 span {
+            color: #1779C6 !important;
+        }
+
+        .contenedor-datos .dates ol li {
+            font-size: 16px !important;
+            color: #003D66 !important;
+            list-style: none !important;
+            margin-left: -57px !important;
+            line-height: 22px !important;
+        }
+        
+        .contenedor-datos .dates {
+            padding-left: 50px;
+        }
+        .atencion-santiago .informacion {
+            padding-left: 18px;
+        }
+        .logo-boton img {
+            margin-left: -10px !important;
+        }
+        .contenedor-datos .dates img {
+          display: none !important;
+        }
+        .contenedor-datos .dates .icono-mapa {
+        display: block !important;
+        width: 100%;
+        margin-left: -25px !important;
+        }
+        .contenedor-mapa {
+        display: none;
+        }
+        .divisor div hr {
+            display: none !important;
+        }
+        .informacion h3 {
+            font-size: 24px !important;
+            color: #003D66 !important;
+            margin-left: 15px !important;
+        }
+        .informacion ol li {
+            margin-left: -23px !important;
+            line-height: 22px;
+        }
+        .grilla-asociados .asociado .santa-maria {
+        margin-top: 45px !important;
+        } 
+     
+    }
+
+    /*  576 a 767 ***************************************** */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+
+        .nav-mobile {
+            display: flex;
+            background-color: #1779C8;
+            width: 100%;
+            height: 70px;
+            margin-bottom: 50px;
+        }
+    
+        .nav-desktop {
+            display: none;
+        }
+    
+        .logo-mobile-nav {
+            position: relative;
+            left: 360px;
+            padding-top: 10px;
+        }
+    
+        .contenedor-footer-1 {
+            align-items: baseline;
+        }
+    
+        .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+            display: none;
+        }
+    
+        .footer-iconos {
+            position: absolute;
+            flex-direction: column;
+        }
+    
+        .logo-facebook {
+            width: 30%;
+            left: 300px;
+        }
+    
+        .logo-twiter {
+            width: 30%;
+            left: 300px;
+        }
+    
+        .logo-youtube {
+            width: 30%;
+            left: 300px;
+        }
+
+        .zona-descripcion .contenedor-datos {
+            flex-direction: column;
+        }
+
+        .div-azul .titulo-icono span {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        .logo-boton {
+            width: 65%;
+        }
+
+        .logo-boton::after {
+            display: none;
+        }
+
+        .section-sucursales,
+        .mapa-zona.desktop {
+            display: none !important;
+        }
+
+        .section-mapa .info h2 {
+            font-size: 25px !important;
+            line-height: 28px !important;
+        }
+
+        .section-sucursales .regiones {
+            width: 62%;
+        }
+
+        .zona-servicios .titulo {
+            font-size: 26px;
+        }
+
+        .titulo-icono p,
+        .titulo-icono .icon-bottom,
+        .cotizar-plan p {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        .grilla-atencion {
+            flex-flow: column nowrap;
+        }
+
+        .grilla-atencion .items.titulo {
+            flex-direction: column;
+            align-items: baseline;
+        }
+      
+
+        .grilla-atencion .items.cont {
+          /*  flex-direction: column;*/
+             align-items: center; 
+           
+        }
+        #main-slide-vregion {
+            background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000003720210427192917.jpg) !important;
+        }
+        #main-slide-vregion .titulo-ppal {
+            width: 510px !important;
+            
+        }
+        .descripcion-boton p {
+            width: 450px;
+            margin-left: -71px;
+            padding-top: 15px;
+        }
+        .logo-boton img {
+            margin-left: -14px !important;
+        }
+        .parrafo-coberturas h2 {
+            width: 539px;
+            padding-bottom: 20px;
+        }
+        .contenedor-datos .dates img {
+          display: none !important;
+        }
+        .contenedor-datos .dates .icono-mapa {
+            display: block !important;
+            width: 120%;
+            margin-left: -135px !important;
+        }
+
+        .contenedor-datos .dates h3 {
+            font-size: 24px !important;
+            color: #003D66 !important;
+            margin-left: -213px !important;
+        }
+
+        .contenedor-datos .dates h3 span {
+            color: #1779C6 !important;
+        }
+
+        .contenedor-datos .dates ol li {
+            font-size: 16px !important;
+            color: #003D66 !important;
+            list-style: none !important;
+            margin-left: -166px !important;
+            line-height: 22px !important;
+        }
+        .contenedor-datos .dates {
+            padding-left: 200px !important;
+        }
+        .contenedor-mapa {
+        display: none;
+        }
+        .divisor div hr {
+            display: none !important;
+        }
+        .descripcion-boton p {
+            font-size: 18px !important;
+        }
+        .informacion ol li {
+            line-height: 22px;
+            margin-left: -39px !important;
+        }
+
+
+
+    }
+
+    /*  768 a 991 *************************************************************** */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+        .nav-mobile {
+            display: flex;
+            background-color: #1779C8;
+            width: 100%;
+            height: 70px;
+            margin-bottom: 50px;
+        }
+    
+        .nav-desktop {
+            display: none;
+        }
+    
+        .logo-mobile-nav {
+            position: relative;
+            left: 550px;
+            padding-top: 10px;
+        }
+    
+        .contenedor-footer-1, .contenedor-footer-2, .contenedor-footer-3, .contenedor-footer-4 {
+            justify-content: flex-start;
+        }
+    
+        .contenedor-footer-1 img {
+            display: none;
+        }
+
+        .logo-boton::after {
+            display: none;
+        }
+
+        .mapa-zona.mobile {
+            display: none;
+        }
+
+        .section-sucursales .regiones {
+            width: 62%;
+        }
+
+        .grilla-atencion {
+            flex-flow: column nowrap;
+        }
+        #main-slide-vregion {
+              background-image: url(https://www.cruzblanca.cl/cruzblanca/site/artic/20210427/imag/foto_0000003720210427192917.jpg) !important;
+        }
+        #main-slide-vregion .titulo-ppal {
+            width: 510px !important;
+          
+          
+        }
+        .logo-boton {
+            width: 50%;
+        }
+        .parrafo-coberturas h2 {
+            width: 380px;
+            padding-bottom: 20px;
+        }
+        .grilla-boxes-vregion .box div
+        {
+            display: block !important;
+            flex-direction: row !important;
+            place-items: center !important;
+            color: #fff !important;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+        }
+        .grilla-boxes-vregion .box div>strong.per60 {
+            margin-left: 156px;
+        }
+        .grilla-boxes-vregion .box div>strong.per70 {
+            margin-left: 156px;
+        }
+        .logo-boton img {
+            margin-left: -20px !important;
+        }
+        .descripcion-boton p {
+           width: 550px;
+           margin-left: -70px;
+        }
+        .parrafo-coberturas h2 {
+            width: 573px;
+            padding-bottom: 20px;
+            margin-left: 37px;
+        }
+        
+        .contenedor-datos .dates img {
+            margin-left: 26px !important;
+        }
+        .contenedor-datos .dates ol li {
+            margin-left: -11px !important;
+            line-height: 22px !important;
+        }
+        .contenedor-datos .dates h3 {
+            margin-left: -58px !important;
+        }
+        .informacion ol li {
+            line-height: 22px;
+            margin-left: -39px !important
+        }
+
+    }
+
+    /*  992 a 1199.98 **************************************************************** */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+
+        .numero-a {
+            display: none;
+        }
+    
+        .contacto-a {
+            display: none;
+        }
+    
+        .nav-lado-izq a {
+            margin-right: 20px;
+        }
+        
+        .contenedor-btn {
+            flex-flow: row nowrap;
+        }
+
+        .mapa-zona.mobile {
+            display: none;
+        }
+
+        
+        .grilla-boxes-vregion
+         {
+            flex-flow: row nowrap;
+        }
+
+        .grilla-atencion {
+            flex-flow: column nowrap;
+        }
+
+        .descripcion-boton p {
+            width: 600px;
+           
+        }
+        .logo-boton::after {
+            border-right: none;
+        }
+        .parrafo-coberturas h2 {
+            width: 895px;
+            padding-bottom: 20px;
+        }
+        .contenedor-datos .dates ol li {
+            margin-left: 47px !important;
+        }
+       
+    }
+
+    /*  1200 ***************************************************************************** */
+    @media (min-width: 1200px) {
+        .contenedor-btn {
+            flex-flow: row nowrap;
+        }
+
+        .section-mapa,
+        .section-sucursales {
+            flex-flow: row nowrap;
+        }
+
+        .section-mapa .info {
+            align-items: baseline;
+            flex-direction: column;
+            flex-basis: 378px;
+        }
+
+        .mapa-zona.mobile {
+            display: none;
+        }
+
+       
+        .grilla-boxes-vregion
+        {
+            flex-flow: row nowrap;
+        }
+
+        .grilla-atencion {
+            flex-flow: row nowrap;
+        }
+
+        .grilla-atencion .items.titulo {
+            flex-direction: column;
+            align-items: baseline;
+            max-width: 270px;
+        }
+
+        .grilla-atencion .items.titulo::after {
+            border-bottom: 0px;
+            left: 45px;
+            top: 0px;
+            border-right: 1px solid #ffffff;
+        }
+        .grilla-atencion .items.cont {
+            width: 80%;
+        }
+    }
+    @media (min-width: 1300px) {
+        .grilla-atencion .items.cont {
+            width: 90%;
+        }
+    }
+     @media (min-width: 1440px) {
+        .grilla-atencion .items.cont {
+            width: 100%;
+        }
+        .logo-boton::after {
+            top: 3px;
+        }
+       /*  .contenedor-datos .dates ol li {
+            margin-left: 48px !important;
+        }
+        .informacion ol li {
+            margin-left: -39px !important;
+        } */
+
+    }
+    @media (min-width: 1900px) {
+        .grilla-atencion .items.cont {
+            width: 100%;
+        }
+        .logo-boton::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 161px;
+            top: 4px;
+            left: 20px;
+            border-right: solid 1px #00335b;
+        }
+        .contenedor-datos .dates ol li {
+            font-size: 16px !important;
+            color: #003D66 !important;
+            list-style: none !important;
+            margin-left: 47px !important;
+            line-height: 22px;
+            inline-size: max-content;
+        }
+        .informacion ol li {
+            font-size: 16px !important;
+            color: #003D66 !important;
+            list-style: none !important;
+            margin-left: -38px !important;
+            line-height: 22px;
+        }
+    }
